@@ -1,0 +1,28 @@
+.googleimg {
+    display:block;
+    margin-left: 500px;
+    width: 20%;
+    position: absolute;
+
+        
+        
+}
+
+li {
+    display: inline-block;
+    width: 60px;
+    margin-top: 5px;
+    
+}
+
+li:hover {
+    border-bottom: 1px solid #555;
+    text-align: center;
+    
+}
+
+ul li {
+    color: #000;
+    opacity: 0.75;
+    
+}
