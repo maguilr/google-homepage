@@ -1,13 +1,12 @@
 .googleimg {
     display:block;
     margin-left: 500px;
+    margin-top: 200px;
     width: 20%;
     position: absolute;
-
         
         
 }
-
 li {
     display: inline-block;
     width: 60px;
@@ -15,14 +14,12 @@ li {
     
 }
 
-li:hover {
-    border-bottom: 1px solid #555;
-    text-align: center;
-    
-}
 
-ul li {
+ul li a {
+    
     color: #000;
     opacity: 0.75;
+    float: right;
+    text-decoration: none;
     
 }
