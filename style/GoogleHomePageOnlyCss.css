@@ -1,3 +1,20 @@
+body {
+    background-color: #fff;
+    color: #222;
+    height: 100%;
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+.top {
+    text-align: right; /*Moves ul to the right side of the page*/ 
+    font-size: 13px;
+    min-width: 220px;
+    margin-right: 20px;
+}
+
+
 .googleimg {
     display:block;
     margin-left: 500px;
