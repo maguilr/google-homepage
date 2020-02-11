@@ -10,10 +10,27 @@ body {
 .top {
     text-align: right; /*Moves ul to the right side of the page*/ 
     font-size: 13px;
+    
     min-width: 220px;
-    margin-right: 20px;
+    padding: 3px 11px 0 30px;
+    margin-right: 5px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end; /* is used in conjuction to flex to push the top navigation to the right*/
 }
 
+.mid {
+    padding-top: 98px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-element {
+    display: inline-block;
+}
 
 .googleimg {
     display:block;
@@ -40,3 +57,14 @@ ul li a {
     text-decoration: none;
     
 }
+
+
+#search-field-input {
+    height: 20px;
+    width: 385px;
+    text-decoration: none;
+    
+}
+
+
+
